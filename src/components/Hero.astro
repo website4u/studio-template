@@ -1,0 +1,37 @@
+---
+interface Props {
+  // Add any expected prop types here
+}
+
+// Use the props interface
+const {
+  /* destructure props */
+} = Astro.props as Props;
+---
+
+<div>
+  <div class="absolute inset-0 bg-black opacity-40"></div>
+  <div class="absolute inset-0 flex items-end py-10 px-20">
+    <div class="text-start">
+      <h2 class="lg:text-4xl sm:text-2xl text-white mt-4">
+        Astro Hero Heading 2
+      </h2>
+      <h1 class="lg:text-8xl sm:text-4xl text-white font-semibold">
+        Astro Hero Heading 1
+      </h1>
+    </div>
+    <div class="text-end">
+      <div class="pl-48 sm-d-none">
+        <a
+          class="flex text-lg text-white hover:text-sky-100 gap-4 items-center justify-center"
+          >Scroll Down
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2989/2989995.png"
+            class="text-white"
+            width="20"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
