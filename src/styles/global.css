@@ -160,10 +160,38 @@ hr {
 	margin-top: -5em;
 }
 
-/* @media screen and (max-width: 480px) {
-	.sm-d-none{
+@media screen and (max-width: 480px) {
+	.d-none-mobile{
 		display: none;
 	}
-  } */
+	.sm-p-0{
+		padding: 1em;
+	}
+	.sm-py-0{
+		padding-top: 1rem;
+    padding-bottom: 1rem;
+	}
+	.text-6xl{
+		font-size: 2.5em!important;
+	}
+	.text-8xl{
+		font-size: 2.5em!important;
+	}
+	.text-4xl{
+		font-size: 1.5em!important;
+	}
+	.hero-section-mob{
+		padding: 30px!important;
+	}
+	.sm-max-width{
+		width: 100% !important;
+	}
+
+	/* CorporateService responsive */
+	/* #CorporateService{
+		min-width: max-content;
+	} */
+
+  }
 
 
