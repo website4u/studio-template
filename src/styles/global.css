@@ -200,8 +200,14 @@ hr {
 		min-width: max-content;
 	} */
 	.image-mobile-res{
-		height: 40vh;
 		object-fit: cover;
+	}
+	.m-d-flex-col{
+		min-width: 100% !important;
+		padding: 10px;
+	}
+	.m-d-flex{
+		flex-direction: column!important;
 	}
   }
 
