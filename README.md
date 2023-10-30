@@ -1,4 +1,4 @@
-# Astro Starter Kit: Blog
+# Website4u Studio website template
 
 ```sh
 git clone https://github.com/website4u/studio-template.git && npm install && npm run dev
